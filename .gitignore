@@ -3,3 +3,5 @@
 pyvenv.cfg
 /bin
 /lib
+.vscode
+**/__pycache__

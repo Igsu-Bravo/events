@@ -89,7 +89,7 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': int(get_env_value('DATABASE_PORT')),
         'NAME': get_env_value('DATABASE_NAME'),
-        'USERNAME': get_env_value('DATABASE_USERNAME'),
+        'USER': get_env_value('DATABASE_USERNAME'),
         'PASSWORD': get_env_value('DATABASE_PASSWORD'),
     }
 }
@@ -119,7 +119,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Helsinki'
 
 USE_I18N = True
 
